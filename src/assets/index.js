@@ -7,6 +7,7 @@ import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
 import shaq from './personal/shaq.png';
+import kevin from './personal/my_image_bw.png'
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -96,4 +97,5 @@ export {
   dcc,
   kelhel,
   microverse,
+  kevin
 };
