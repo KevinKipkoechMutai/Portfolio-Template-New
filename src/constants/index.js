@@ -17,16 +17,15 @@ import {
   postgresql,
   rubyrails,
   graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  compsanalytics,
+  gericht,
+  gpt3,
+  hoobank,
+  mulasafi,
+  moringa,
+  techchimp,
+  kvm,
+  temec
 } from '../assets';
 
 export const navLinks = [
@@ -124,30 +123,30 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Junior Software Developer (Volunteer)',
+    company_name: 'Tea Engineering and Machinery Company',
+    icon: temec,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Jan 2018 - Dec 2018',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Junior Software Developer (Volunteer)',
+    company_name: 'Kenya Vehicle Manufacturers',
+    icon: kvm,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Jan 2019 - Dec 2019',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Software Engineering Trainee',
+    company_name: 'Moringa School',
+    icon: moringa,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Jun 2022 - Dec 2022',
   },
   {
     title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    company_name: 'Techchimp Solutions',
+    icon: techchimp,
     iconBg: '#333333',
     date: 'Sep 2022 - Present',
   },
@@ -156,8 +155,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'CompsAnalytics',
+    description: 'An online property listing and valuation tool.',
     tags: [
       {
         name: 'react',
@@ -172,15 +171,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: compsanalytics,
+    repo: 'https://github.com/Kapadokia-Titus/CompsAnalytics-Frontend',
+    demo: 'https://comps-analytics.vercel.app/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Hoobank',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A single-page banking web-app.',
     tags: [
       {
         name: 'react',
@@ -195,14 +194,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: hoobank,
+    repo: 'https://github.com/KevinKipkoechMutai/modern-fintech-business-landing-page',
+    demo: 'https://modern-fintech-business-landing-page.vercel.app/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Gericht',
+    description: 'An official restaurant website built with React.',
     tags: [
       {
         name: 'nextjs',
@@ -217,14 +216,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: gericht,
+    repo: 'https://github.com/KevinKipkoechMutai/restaurant_landing_page',
+    demo: 'https://restaurant-landing-page-gilt.vercel.app/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Mula$afi',
+    description: `A gambling platform with crash, shuffle, and roulette games`,
     tags: [
       {
         name: 'nextjs',
@@ -239,15 +238,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: mulasafi,
+    repo: 'https://github.com/KevinKipkoechMutai',
+    demo: 'https://mulasafi.com',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'GPT-3',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'Re-imagined official website for GPT-3.',
     tags: [
       {
         name: 'nextjs',
@@ -262,9 +261,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: gpt3,
+    repo: 'https://github.com/KevinKipkoechMutai/react-refresher-UI',
+    demo: 'https://react-refresher-ui.vercel.app/',
   },
 ];
 

@@ -5,8 +5,11 @@ import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import { send, sendHover } from '../assets';
+import { useToasts } from 'react-toast-notifications';
 
 const Contact = () => {
+
+  const { addToast } = useToasts()
   const formRef = useRef();
   const [form, setForm] = useState({
     name: '',
@@ -29,21 +32,23 @@ const Contact = () => {
     //click on create a new template then click on save.
     emailjs
       .send(
-        'serviceID', // paste your ServiceID here (you'll get one when your service is created).
-        'templateID', // paste your TemplateID here (you'll find it under email templates).
+        'service_rvew65c', // paste your ServiceID here (you'll get one when your service is created).
+        'template_hasrawe', // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
-          to_name: 'YourName', // put your name here.
+          to_name: 'Kevin', // put your name here.
           from_email: form.email,
-          to_email: 'youremail@gmail.com', //put your email here.
+          to_email: 'mutaikevinkip.05@gmail.com', //put your email here.
           message: form.message,
         },
-        'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
+        'aUuawLWkgZ3zBTrjv' //paste your Public Key here. You'll get it in your profile section.
       )
       .then(
         () => {
           setLoading(false);
-          alert('Thank you. I will get back to you as soon as possible.');
+          
+
+          addToast('Thanks for reaching out. I will get back to you as soon as possible.', { appearance: 'success', autoDismiss: true })
 
           setForm({
             name: '',
@@ -54,7 +59,9 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.log(error);
-          alert('Something went wrong. Please try again.');
+
+          addToast('Something went wrong. Please try again.', { appearance: 'error', autoDismiss: true })
+          
         }
       );
   };

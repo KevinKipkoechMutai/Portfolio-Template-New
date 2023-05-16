@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
@@ -154,4 +154,7 @@ const Projects = () => {
   );
 };
 
+
 export default SectionWrapper(Projects, 'projects');
+
+

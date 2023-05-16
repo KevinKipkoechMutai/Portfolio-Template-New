@@ -5,6 +5,8 @@ import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
+import kevv from './logo/Kevv.png'
+import text from './logo/text.png'
 
 import shaq from './personal/shaq.png';
 import kevin from './personal/my_image_bw.png'
@@ -43,6 +45,10 @@ import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
+import kvm from './company/kvm.png'
+import moringa from './company/moringa.png'
+import techchimp from './company/techchimp.png'
+import temec from './company/temec.png'
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -50,8 +56,21 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import compsanalytics from './projects/compsanalytics.png'
+import gericht from './projects/gericht.png'
+import gpt3 from './projects/gpt3.png'
+import hoobank from './projects/hoobank.png'
+import mealtime from './projects/mealtime.png'
+import mulasafi from './projects/mulasafi.png'
 
 export {
+  kevv, text,
+  compsanalytics,
+  gericht,
+  gpt3,
+  hoobank,
+  mealtime,
+  mulasafi,
   bwmap,
   nairobi,
   whiteabstract,
@@ -97,5 +116,9 @@ export {
   dcc,
   kelhel,
   microverse,
-  kevin
+  kevin,
+  kvm,
+  moringa,
+  techchimp,
+  temec
 };
