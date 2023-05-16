@@ -34,7 +34,7 @@ const Navbar = () => {
               <div className="flex justify-end">
                 <img src={close} alt="close" className="w-[22px] h-[22px] object-contain cursor-pointer" onClick={() => setToggle(!toggle)} />
               </div>
-              <ul className="list-none flex flex-col gap-[1rem] items-end justify-end mt-[2rem] h-[25vh] -ml-[1rem]">
+              <ul className="list-none flex flex-col gap-[1rem] items-end justify-end mt-[2rem] h-[27vh] -ml-[1rem]">
                 {navLinks.map((nav) => (
                   <li
                     id={nav.id}
