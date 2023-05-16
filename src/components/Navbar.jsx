@@ -28,27 +28,28 @@ const Navbar = () => {
         </ul>
 
         {/* mobile */}
-        <div className="sm:hidden flex flex-1 w-screen justify-end items-center top-4 mt-4">
+        <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
           {toggle ? (
             <div className={`pt-8 pb-6 px-4 bg-flashWhite opacity-[0.98] absolute top-0 left-0 w-screen z-10 menu ${toggle ? 'menu-open' : 'menu-close'}`}>
               <div className="flex justify-end">
                 <img src={close} alt="close" className="w-[22px] h-[22px] object-contain cursor-pointer" onClick={() => setToggle(!toggle)} />
               </div>
-              <ul className="list-none flex flex-col gap-[1rem] items-end justify-end h-[27vh] -ml-[1rem]">
+              <ul className="list-none flex flex-col gap-[1rem] items-end justify-end -ml-[1rem] max-h-fit">
                 {navLinks.map((nav) => (
                   <li
                     id={nav.id}
                     key={nav.id}
                     className={`${active === nav.title 
                       ? 'text-french' : 'text-eerieBlack'}
-                       hover:text-taupe text-[12px] sm:text-[10px] font-normal font-mova uppercase 
-                       tracking-[3px] cursor-pointer nav-links px-6 h-[10vh] right-0 text-right`}
+                      hover:text-taupe text-[12px] font-normal min-h-[7vh] font-mova uppercase cursor-pointer nav-links right-0 text-right`}
                     onClick={() => {
                       setToggle(!toggle);
                       setActive(nav.title);
                     }}
                   >
-                    <a href={`#${nav.id}`} className='text-[20px] text-right m-auto'>{nav.title}</a>
+                    <a href={`#${nav.id}`}
+                      className='text-[20px] px-3 py-0'
+                    >{nav.title}</a>
                   </li>
                 ))}
               </ul>

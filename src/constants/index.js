@@ -148,7 +148,7 @@ const experiences = [
     company_name: 'Techchimp Solutions',
     icon: techchimp,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Jan 2023 - April 2023',
   },
 ];
 
