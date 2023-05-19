@@ -62,9 +62,10 @@ import gpt3 from './projects/gpt3.png'
 import hoobank from './projects/hoobank.png'
 import mealtime from './projects/mealtime.png'
 import mulasafi from './projects/mulasafi.png'
+import farmleaf from './projects/farmleaf-bw.png'
 
 export {
-  kevv, text,
+  kevv, text, farmleaf,
   compsanalytics,
   gericht,
   gpt3,

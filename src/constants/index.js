@@ -7,6 +7,7 @@ import {
   typescript,
   html,
   css,
+  farmleaf,
   reactjs,
   redux,
   tailwind,
@@ -177,9 +178,9 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Hoobank',
+    name: 'Farmleaf',
     description:
-      'A single-page banking web-app.',
+      'A web-app designed for an agroforestry startup.',
     tags: [
       {
         name: 'react',
@@ -194,9 +195,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: hoobank,
-    repo: 'https://github.com/KevinKipkoechMutai/modern-fintech-business-landing-page',
-    demo: 'https://modern-fintech-business-landing-page.vercel.app/',
+    image: farmleaf,
+    repo: 'https://github.com/KevinKipkoechMutai/farmleaf_agroforestry',
+    demo: 'https://farmleaf-agroforestry.vercel.app/',
   },
   {
     id: 'project-3',
