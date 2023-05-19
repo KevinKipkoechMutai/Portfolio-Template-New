@@ -180,7 +180,7 @@ const projects = [
     id: 'project-2',
     name: 'Farmleaf',
     description:
-      'A web-app designed for an agroforestry startup.',
+      'A web-app designed for an agroforestry startup',
     tags: [
       {
         name: 'react',
@@ -201,6 +201,29 @@ const projects = [
   },
   {
     id: 'project-3',
+    name: 'Hoobank',
+    description:
+      'A single-page banking web-app.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: hoobank,
+    repo: 'https://github.com/KevinKipkoechMutai/modern-fintech-business-landing-page',
+    demo: 'https://modern-fintech-business-landing-page.vercel.app/',
+  },
+  {
+    id: 'project-4',
     name: 'Gericht',
     description: 'An official restaurant website built with React.',
     tags: [
@@ -222,7 +245,7 @@ const projects = [
     demo: 'https://restaurant-landing-page-gilt.vercel.app/',
   },
   {
-    id: 'project-4',
+    id: 'project-5',
     name: 'Mula$afi',
     description: `A gambling platform with crash, shuffle, and roulette games`,
     tags: [
@@ -244,7 +267,7 @@ const projects = [
     demo: 'https://mulasafi.com',
   },
   {
-    id: 'project-5',
+    id: 'project-6',
     name: 'GPT-3',
     description:
       'Re-imagined official website for GPT-3.',
