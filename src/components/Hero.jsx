@@ -47,7 +47,7 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               A fullstack software engineer. <br className="sm:block hidden" />
-              I specialize in Ruby on Rails and the MERN stack.
+              I specialize in NextJS, React, MERN, Ruby on Rails, JS, TS, and Python.
             </p>
           </div>
           <div
