@@ -1,5 +1,5 @@
 import {
-  frontend,
+  frontend, sociopedia, finalytics,
   backend,
   ux,
   prototyping,
@@ -124,14 +124,14 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Junior Software Developer (Volunteer)',
+    title: 'Junior Software Developer',
     company_name: 'Tea Engineering and Machinery Company',
     icon: temec,
     iconBg: '#333333',
     date: 'Jan 2018 - Dec 2018',
   },
   {
-    title: 'Junior Software Developer (Volunteer)',
+    title: 'Junior Software Developer',
     company_name: 'Kenya Vehicle Manufacturers',
     icon: kvm,
     iconBg: '#333333',
@@ -145,7 +145,7 @@ const experiences = [
     date: 'Jun 2022 - Dec 2022',
   },
   {
-    title: 'Full Stack Developer',
+    title: 'Full Stack Engineer',
     company_name: 'Techchimp Solutions',
     icon: techchimp,
     iconBg: '#333333',
@@ -178,54 +178,8 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Farmleaf',
-    description:
-      'A web-app designed for an agroforestry startup',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: farmleaf,
-    repo: 'https://github.com/KevinKipkoechMutai/farmleaf_agroforestry',
-    demo: 'https://farmleaf-agroforestry.vercel.app/',
-  },
-  {
-    id: 'project-3',
-    name: 'Hoobank',
-    description:
-      'A single-page banking web-app.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: hoobank,
-    repo: 'https://github.com/KevinKipkoechMutai/modern-fintech-business-landing-page',
-    demo: 'https://modern-fintech-business-landing-page.vercel.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Gericht',
-    description: 'An official restaurant website built with React.',
+    name: 'Finalytics',
+    description: 'A financial dashboard with a tinge of machine learning.',
     tags: [
       {
         name: 'nextjs',
@@ -240,12 +194,35 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: gericht,
-    repo: 'https://github.com/KevinKipkoechMutai/restaurant_landing_page',
-    demo: 'https://restaurant-landing-page-gilt.vercel.app/',
+    image: finalytics,
+    repo: 'https://github.com/KevinKipkoechMutai/finalytics_client',
+    demo: 'https://finalytics.vercel.app/',
   },
   {
-    id: 'project-5',
+    id: 'project-3',
+    name: 'Sociopedia',
+    description:
+      'A fully functional social media application.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'nodejs',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: sociopedia,
+    repo: 'https://github.com/KevinKipkoechMutai/sociopedia_client',
+    demo: 'https://sociopedia-eight.vercel.app/',
+  },
+  {
+    id: 'project-4',
     name: 'Mula$afi',
     description: `A gambling platform with crash, shuffle, and roulette games`,
     tags: [
@@ -267,27 +244,27 @@ const projects = [
     demo: 'https://mulasafi.com',
   },
   {
-    id: 'project-6',
-    name: 'GPT-3',
+    id: 'project-5',
+    name: 'Farmleaf',
     description:
-      'Re-imagined official website for GPT-3.',
+      'A web-app designed for an agroforestry startup',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'restapi',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'scss',
         color: 'pink-text-gradient',
       },
     ],
-    image: gpt3,
-    repo: 'https://github.com/KevinKipkoechMutai/react-refresher-UI',
-    demo: 'https://react-refresher-ui.vercel.app/',
+    image: farmleaf,
+    repo: 'https://github.com/KevinKipkoechMutai/farmleaf_agroforestry',
+    demo: 'https://farmleaf-agroforestry.vercel.app/',
   },
 ];
 

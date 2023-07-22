@@ -63,9 +63,11 @@ import hoobank from './projects/hoobank.png'
 import mealtime from './projects/mealtime.png'
 import mulasafi from './projects/mulasafi.png'
 import farmleaf from './projects/farmleaf-bw.png'
+import sociopedia from './projects/sociopedia.png'
+import finalytics from './projects/finalytics.png'
 
 export {
-  kevv, text, farmleaf,
+  kevv, text, farmleaf, sociopedia, finalytics,
   compsanalytics,
   gericht,
   gpt3,
