@@ -26,7 +26,8 @@ import {
   moringa,
   techchimp,
   kvm,
-  temec
+  temec,
+  sarabistudio
 } from '../assets';
 
 export const navLinks = [
@@ -151,6 +152,13 @@ const experiences = [
     iconBg: '#333333',
     date: 'Jan 2023 - April 2023',
   },
+  {
+    title: 'Full Stack Engineer',
+    company_name: 'Sarabi Startup Studio',
+    icon: sarabistudio,
+    iconBg: '#333333',
+    date: 'Jul 2023 - Nov 2023',
+  }
 ];
 
 const projects = [
