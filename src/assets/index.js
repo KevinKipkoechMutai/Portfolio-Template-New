@@ -50,6 +50,7 @@ import moringa from './company/moringa.png'
 import techchimp from './company/techchimp.png'
 import temec from './company/temec.png'
 import earthhero from "./company/earthhero.jpg"
+import sarabistudio from "./company/sarabistudio.jpeg"
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -125,5 +126,6 @@ export {
   moringa,
   techchimp,
   temec,
-  earthhero
+  earthhero,
+  sarabistudio
 };
