@@ -49,6 +49,7 @@ import kvm from './company/kvm.png'
 import moringa from './company/moringa.png'
 import techchimp from './company/techchimp.png'
 import temec from './company/temec.png'
+import earthhero from "./company/earthhero.jpg"
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -123,5 +124,6 @@ export {
   kvm,
   moringa,
   techchimp,
-  temec
+  temec,
+  earthhero
 };

@@ -19,15 +19,12 @@ import {
   rubyrails,
   graphql,
   compsanalytics,
-  gericht,
-  gpt3,
-  hoobank,
   mulasafi,
   moringa,
-  techchimp,
   kvm,
   temec,
-  sarabistudio
+  sarabistudio,
+  earthhero
 } from '../assets';
 
 export const navLinks = [
@@ -147,17 +144,17 @@ const experiences = [
   },
   {
     title: 'Full Stack Engineer',
-    company_name: 'Techchimp Solutions',
-    icon: techchimp,
-    iconBg: '#333333',
-    date: 'Jan 2023 - April 2023',
-  },
-  {
-    title: 'Full Stack Engineer',
     company_name: 'Sarabi Startup Studio',
     icon: sarabistudio,
     iconBg: '#333333',
-    date: 'Jul 2023 - Nov 2023',
+    date: 'Feb 2023 - Feb 2024',
+  },
+  {
+    title: 'Software Engineer',
+    company_name: 'Earth Hero',
+    icon: earthhero,
+    iconBg: '#333333',
+    date: 'Feb 2024 - Present',
   }
 ];
 
