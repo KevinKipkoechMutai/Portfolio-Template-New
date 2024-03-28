@@ -5,15 +5,12 @@ import {
   prototyping,
   javascript,
   typescript,
-  html,
-  css,
+  python, django, next, fastapi,
   farmleaf,
   reactjs,
   redux,
   tailwind,
   nodejs,
-  git,
-  figma,
   docker,
   postgresql,
   rubyrails,
@@ -63,14 +60,6 @@ const services = [
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
-  },
-  {
     name: 'JavaScript',
     icon: javascript,
   },
@@ -99,20 +88,28 @@ const technologies = [
     icon: rubyrails,
   },
   {
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "FastAPI",
+    icon: fastapi,
+  }, 
+  {
+    name: "NextJS",
+    icon: next
+  },
+  {
     name: 'graphql',
     icon: graphql,
   },
   {
     name: 'postgresql',
     icon: postgresql,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
   },
   {
     name: 'docker',

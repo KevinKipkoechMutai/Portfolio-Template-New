@@ -40,6 +40,10 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import django from './tech/django-lang.png';
+import fastapi from './tech/fastapi.png';
+import next from './tech/next-js.png';
+import python from './tech/python-lang.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -127,5 +131,5 @@ export {
   techchimp,
   temec,
   earthhero,
-  sarabistudio
+  sarabistudio, django, python, next, fastapi
 };
