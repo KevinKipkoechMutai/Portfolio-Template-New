@@ -119,20 +119,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Junior Software Developer',
-    company_name: 'Tea Engineering and Machinery Company',
-    icon: temec,
-    iconBg: '#333333',
-    date: 'Jan 2018 - Dec 2018',
-  },
-  {
-    title: 'Junior Software Developer',
-    company_name: 'Kenya Vehicle Manufacturers',
-    icon: kvm,
-    iconBg: '#333333',
-    date: 'Jan 2019 - Dec 2019',
-  },
-  {
     title: 'Software Engineering Trainee',
     company_name: 'Moringa School',
     icon: moringa,
@@ -179,27 +165,52 @@ const projects = [
     demo: 'https://comps-analytics.vercel.app/',
   },
   {
-    id: 'project-2',
-    name: 'Finalytics',
-    description: 'A financial dashboard with a tinge of machine learning.',
+    id: 'project-5',
+    name: 'Farmleaf',
+    description:
+      'A climate action web app aiming to provide educational, operational, and financial support for Kenyan farmers seeking to adopt agroforestry.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'restapi',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'scss',
         color: 'pink-text-gradient',
       },
     ],
-    image: finalytics,
-    repo: 'https://github.com/KevinKipkoechMutai/finalytics_client',
-    demo: 'https://finalytics.vercel.app/',
+    image: farmleaf,
+    repo: 'https://github.com/KevinKipkoechMutai/farmleaf_agroforestry',
+    demo: 'https://farm-leaf.com/',
   },
+  {
+    id: 'project-6',
+    name: 'MeetingsIO',
+    description:
+      'An end-to-end videoconferencing web app with free Zoom-like capabilities.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: farmleaf,
+    repo: 'https://github.com/KevinKipkoechMutai/complete_videoconferencing_tool',
+    demo: 'https://meetings-io.vercel.app/',
+  }
+  ,
   {
     id: 'project-3',
     name: 'Sociopedia',
@@ -244,30 +255,7 @@ const projects = [
     image: mulasafi,
     repo: 'https://github.com/KevinKipkoechMutai',
     demo: 'https://mulasafi.com',
-  },
-  {
-    id: 'project-5',
-    name: 'Farmleaf',
-    description:
-      'A web-app designed for an agroforestry startup',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: farmleaf,
-    repo: 'https://github.com/KevinKipkoechMutai/farmleaf_agroforestry',
-    demo: 'https://farmleaf-agroforestry.vercel.app/',
-  },
+  }
 ];
 
 export { services, technologies, experiences, projects };
