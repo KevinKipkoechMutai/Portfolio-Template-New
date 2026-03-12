@@ -46,8 +46,8 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              A fullstack software engineer. <br className="sm:block hidden" />
-              I specialize in NextJS, React, MERN, Ruby on Rails, JS, TS, and Python.
+              I build scalable full-stack applications with a focus on modern 
+              technologies like Python, TypeScript, and cloud infrastructure.
             </p>
           </div>
           <div
@@ -81,13 +81,11 @@ const Hero = () => {
         </div>
 
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
-        <div>
+        <div className="absolute bottom-0 right-0 w-full sm:w-auto flex justify-end">
           <img
-            className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
+            className="sm:h-[90vh] md:h-[70vh] xl:h-[80vh] object-contain"
             src={kevin}
-            alt="shaquille"
+            alt="Kevin"
           />
         </div>
       </section>

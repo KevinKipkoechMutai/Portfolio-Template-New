@@ -71,6 +71,8 @@ import mulasafi from './projects/mulasafi.png'
 import farmleaf from './projects/farmleaf-bw.png'
 import sociopedia from './projects/sociopedia.png'
 import finalytics from './projects/finalytics.png'
+import meetingsio from './projects/meetingsio.png'
+import carepulse from './projects/carepulse.png'
 
 export {
   kevv, text, farmleaf, sociopedia, finalytics,
@@ -131,5 +133,5 @@ export {
   techchimp,
   temec,
   earthhero,
-  sarabistudio, django, python, next, fastapi
+  sarabistudio, django, python, next, fastapi, carepulse, meetingsio
 };

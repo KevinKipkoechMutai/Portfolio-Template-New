@@ -28,7 +28,7 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   return (
-    <div className="-mt-[6rem]">
+    <div className="mt-10">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -37,7 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        I transitioned into software development from an engineering background. This has helped me understand core programming principles, agile methodologies, technical writing, problem-solving, creative thinking, and teamwork. 
+        Leveraging a background in engineering, I specialize in building robust software solutions. I combine analytical thinking with modern development practices to create scalable applications that solve real-world problems.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

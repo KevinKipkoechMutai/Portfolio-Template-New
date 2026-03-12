@@ -1,6 +1,5 @@
 import {
-  frontend, sociopedia, finalytics,
-  backend,
+  frontend, sociopedia,  backend,
   ux,
   prototyping,
   javascript,
@@ -8,20 +7,15 @@ import {
   python, django, next, fastapi,
   farmleaf,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
   docker,
   postgresql,
-  rubyrails,
-  graphql,
   compsanalytics,
   mulasafi,
   moringa,
   kvm,
   temec,
   sarabistudio,
-  earthhero
+  earthhero, meetingsio, carepulse
 } from '../assets';
 
 export const navLinks = [
@@ -32,6 +26,10 @@ export const navLinks = [
   {
     id: 'projects',
     title: 'Projects',
+  },
+  {
+    id: 'tech',
+    title: 'Skills',
   },
   {
     id: 'contact',
@@ -72,22 +70,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
     name: "Django",
     icon: django,
   },
@@ -104,26 +86,36 @@ const technologies = [
     icon: next
   },
   {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
+    name: 'PostgreSQL',
     icon: postgresql,
   },
   {
-    name: 'docker',
+    name: 'Docker',
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: 'Software Engineering Trainee',
+    title: 'Engineering Intern',
+    company_name: "Tea Machinery & Engineering Company",
+    icon: temec,
+    iconBg: '#333333',
+    date: 'Jun 2018 - Dec 2018',
+  },
+  {
+    title: 'Engineering Intern',
+    company_name: 'Kenya Vehicle Manufacturers',
+    icon: kvm,
+    iconBg: '#333333',
+    date: 'Jun 2019 - Dec 2019',
+  },
+  {
+    title: 'Junior Software Engineer',
     company_name: 'Moringa School',
     icon: moringa,
     iconBg: '#333333',
-    date: 'Jun 2022 - Dec 2022',
+    date: 'Jun 2022 - Jan 2023',
   },
   {
     title: 'Full Stack Engineer',
@@ -137,7 +129,7 @@ const experiences = [
     company_name: 'Earth Hero',
     icon: earthhero,
     iconBg: '#333333',
-    date: 'Feb 2024 - Present',
+    date: 'Feb 2024 - May 2025',
   }
 ];
 
@@ -145,18 +137,18 @@ const projects = [
   {
     id: 'project-1',
     name: 'CompsAnalytics',
-    description: 'An online property listing and valuation tool.',
+    description: 'A property valuation platform that leverages machine learning to predict accurate property values based on features and location.',
     tags: [
       {
-        name: 'react',
+        name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'fastapi',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'postgres',
         color: 'pink-text-gradient',
       },
     ],
@@ -165,57 +157,55 @@ const projects = [
     demo: 'https://comps-analytics.vercel.app/',
   },
   {
-    id: 'project-5',
-    name: 'Farmleaf',
-    description:
-      'A climate action web app aiming to provide educational, operational, and financial support for Kenyan farmers seeking to adopt agroforestry.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: farmleaf,
-    repo: 'https://github.com/KevinKipkoechMutai/farmleaf_agroforestry',
-    demo: 'https://farm-leaf.com/',
-  },
-  {
-    id: 'project-6',
+    id: 'project-2',
     name: 'MeetingsIO',
     description:
-      'An end-to-end videoconferencing web app with free Zoom-like capabilities.',
+      'A seamless video conferencing platform enabling users to create and join meetings, share screens, and chat in real-time.',
     tags: [
       {
-        name: 'react',
+        name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'mongodb',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'fastapi',
         color: 'pink-text-gradient',
       },
     ],
-    image: farmleaf,
+    image: meetingsio,
     repo: 'https://github.com/KevinKipkoechMutai/complete_videoconferencing_tool',
     demo: 'https://meetings-io.vercel.app/',
-  }
-  ,
+  },
   {
     id: 'project-3',
+    name: 'Carepulse',
+    description: 'A comprehensive hospital management system for streamlined appointment scheduling and patient record tracking.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'shadcn-ui',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: carepulse,
+    repo: 'https://github.com/KevinKipkoechMutai/hospital-appointment-manager',
+    demo: 'https://mulasafi.com',
+  },
+  {
+    id: 'project-4',
     name: 'Sociopedia',
     description:
-      'A fully functional social media application.',
+        'A full-featured social networking application supporting media sharing, user connections, and real-time interactions.',
     tags: [
       {
         name: 'react',
@@ -233,28 +223,6 @@ const projects = [
     image: sociopedia,
     repo: 'https://github.com/KevinKipkoechMutai/sociopedia_client',
     demo: 'https://sociopedia-eight.vercel.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Mula$afi',
-    description: `A gambling platform with crash, shuffle, and roulette games`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: mulasafi,
-    repo: 'https://github.com/KevinKipkoechMutai',
-    demo: 'https://mulasafi.com',
   }
 ];
 
